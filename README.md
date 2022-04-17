@@ -35,16 +35,16 @@ Different pages that look like they're on the same page but "different tabs" sti
 
 ### Landing page
 
-![Landing-page](Home.png)
+![Landing-page](./planning/Home.png)
 
 ### About page
 
-![About-page](About.png)
+![About-page](./planning/About.png)
 
 ### Projects page
 
-![Projects-page](Projects.png)
+![Projects-page](./planning/Projects.png)
 
 ### Contact page
 
-![Contact-page](Contact.png)
+![Contact-page](./planning/Contact.png)
