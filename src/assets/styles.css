@@ -8,20 +8,26 @@
   font-family: 'Nunito', sans-serif;
 }
 body {
-  background-color: #ffeaef;
-  color: #1a1c54;
+  color: #3f3d56;
   font-weight: normal;
+  font-size: 20px;
 }
 
-.navbar {
-  height: 60px;
-  width: 100%;
+.nav {
+  height: 8vh;
   background-color: pink;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
-.navbar .left-nav {
-  padding: 8px 8px 0;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.navbar .logo {
+  height: 7vh;
 }
 .navbar .right-nav {
   display: flex;
@@ -29,12 +35,11 @@ body {
 .right-nav li {
   display: flex;
   align-items: center;
-  font-size: 20px;
-  padding: 8px;
+  padding-left: 32px;
   height: 100%;
 }
 .right-nav a:link {
-  color: #1a1c54;
+  color: #3f3d56;
 }
 .right-nav li:hover {
   /* ask how to do the tab thing */
@@ -42,28 +47,66 @@ body {
 }
 
 .home {
+  height: 84vh;
+  background-image: linear-gradient(#fff8f9, #ffe6ec);
+  display: flex;
+  align-items: center;
+}
+.home .home-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 120px;
+  width: 80%;
+  margin: 0 auto;
 }
-.home .left-home,
-.right-home {
-  flex: 1;
+
+.home .left-home {
+  width: 520px;
 }
 .home .right-home {
-  max-width: 600px;
+  width: 560px;
 }
 .home .right-home img {
   width: 100%;
 }
 
+.footer {
+  height: 8vh;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .right-footer {
+  display: flex;
+}
+.right-footer li {
+  padding-right: 32px;
+  font-size: 32px;
+}
+.left-footer {
+  padding-left: 16px;
+}
+
+.right-footer .envelope .fa-envelope-open {
+  display: none;
+}
+.envelope:hover {
+  cursor: pointer;
+}
+.envelope:hover .fa-envelope {
+  display: none;
+}
+.envelope:hover .fa-envelope-open {
+  display: block;
+}
+
 @media (max-width: 768px) {
-  .home {
+  .home-container {
     flex-direction: column;
     padding: 40px 60px;
   }
-  .home .right-home {
+  .right-home {
     padding-top: 40px;
   }
 }
