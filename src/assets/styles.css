@@ -31,11 +31,12 @@ body {
 }
 .navbar .right-nav {
   display: flex;
+  justify-content: space-around;
+  width: 280px;
 }
 .right-nav li {
   display: flex;
   align-items: center;
-  padding-left: 32px;
   height: 100%;
 }
 .right-nav a:link {
@@ -59,9 +60,8 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-
 .home .left-home {
-  width: 520px;
+  width: 560px;
 }
 .home .right-home {
   width: 560px;
@@ -70,25 +70,29 @@ body {
   width: 100%;
 }
 
+.bottom {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+}
 .footer {
   height: 8vh;
-  background-color: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
-.footer .right-footer {
+.footer .footer-icon {
   display: flex;
+  justify-content: space-around;
+  width: 280px;
 }
-.right-footer li {
-  padding-right: 32px;
+.footer-icon li {
+  margin-right: 32px;
   font-size: 32px;
 }
-.left-footer {
-  padding-left: 16px;
-}
-
-.right-footer .envelope .fa-envelope-open {
+.footer-icon .envelope .fa-envelope-open {
   display: none;
 }
 .envelope:hover {
@@ -104,7 +108,6 @@ body {
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;
-    padding: 40px 60px;
   }
   .right-home {
     padding-top: 40px;
