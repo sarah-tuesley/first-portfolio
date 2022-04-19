@@ -6,6 +6,10 @@
   text-decoration: none;
   list-style-type: none;
   font-family: 'Nunito', sans-serif;
+}
+body {
+  background-color: #ffeaef;
+  color: #1a1c54;
   font-weight: normal;
 }
 
@@ -16,18 +20,50 @@
   display: flex;
   justify-content: space-between;
 }
+.navbar .left-nav {
+  padding: 8px 8px 0;
+}
 .navbar .right-nav {
   display: flex;
-  align-items: center;
 }
 .right-nav li {
+  display: flex;
+  align-items: center;
   font-size: 20px;
   padding: 8px;
+  height: 100%;
 }
 .right-nav a:link {
   color: #1a1c54;
 }
 .right-nav li:hover {
   /* ask how to do the tab thing */
-  background-color: lightpink;
+  background-color: #ffeaef;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px;
+}
+.home .left-home,
+.right-home {
+  flex: 1;
+}
+.home .right-home {
+  max-width: 600px;
+}
+.home .right-home img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    padding: 40px 60px;
+  }
+  .home .right-home {
+    padding-top: 40px;
+  }
 }
