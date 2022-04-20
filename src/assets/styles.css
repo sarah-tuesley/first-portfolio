@@ -47,26 +47,26 @@ body {
   background-color: #ffeaef;
 }
 
-.home {
+.main {
   height: 84vh;
   background-image: linear-gradient(#fff8f9, #ffe6ec);
   display: flex;
   align-items: center;
 }
-.home .home-container {
+.home-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
 }
-.home .left-home {
+.left-home {
   width: 560px;
 }
-.home .right-home {
+.right-home {
   width: 560px;
 }
-.home .right-home img {
+.right-home img {
   width: 100%;
 }
 
@@ -103,6 +103,39 @@ body {
 }
 .envelope:hover .fa-envelope-open {
   display: block;
+}
+
+/* Aboutme web page */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.left-about {
+  width: 600px;
+}
+.right-about {
+  width: 340px;
+}
+.about-box-title {
+  font-size: 16px;
+  padding-left: 16px;
+}
+.about-icon {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d4e0ee;
+  border: 2px solid #3f3d56;
+  margin-bottom: 8px;
+  padding: 12px 0;
+  border-top-left-radius: 8px;
+  box-shadow: 8px 8px 5px pink;
+}
+.right-about img {
+  width: 80px;
 }
 
 @media (max-width: 768px) {
