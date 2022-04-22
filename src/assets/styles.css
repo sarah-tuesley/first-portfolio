@@ -140,6 +140,22 @@ body {
 .project-main {
   background-image: linear-gradient(#fff8f9, #ffe6ec);
 }
+.project-main .main-container {
+  display: block;
+}
+
+.project-1 {
+  background-image: url(../assets/images/mirror-practice.png);
+}
+.project-2 {
+  background-image: url(https://picsum.photos/600/400);
+}
+.project-container {
+  height: 480px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 680px 480px;
+}
 
 @media (max-width: 992px) {
   .main {
@@ -147,8 +163,7 @@ body {
     height: auto;
   }
   /* home page */
-  .home-container,
-  .about-container {
+  .main-container {
     flex-direction: column;
   }
   .left-home {
