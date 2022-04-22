@@ -12,7 +12,22 @@ body {
   font-weight: normal;
   font-size: 20px;
 }
+.main {
+  height: 84vh;
+  background-image: linear-gradient(#fff8f9, #ffe6ec);
+  display: flex;
+  align-items: center;
+}
 
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/* navigation */
 .nav {
   height: 8vh;
   background-color: pink;
@@ -47,30 +62,7 @@ body {
   background-color: #ffeaef;
 }
 
-.main {
-  height: 84vh;
-  background-image: linear-gradient(#fff8f9, #ffe6ec);
-  display: flex;
-  align-items: center;
-}
-
-.home-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-}
-.left-home {
-  width: 560px;
-}
-.right-home {
-  width: 560px;
-}
-.right-home img {
-  width: 100%;
-}
-
+/* footer */
 .bottom {
   background-color: pink;
   display: flex;
@@ -106,15 +98,18 @@ body {
   display: block;
 }
 
-/* About page */
-
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80vw;
-  margin: 0 auto;
+/* home page */
+.left-home {
+  width: 560px;
 }
+.right-home {
+  width: 560px;
+}
+.right-home img {
+  width: 100%;
+}
+
+/* About page */
 .left-about {
   width: 600px;
   margin-right: 80px;
@@ -142,6 +137,9 @@ body {
 }
 
 /* projects page */
+.project-main {
+  background-image: linear-gradient(#fff8f9, #ffe6ec);
+}
 
 @media (max-width: 992px) {
   .main {
