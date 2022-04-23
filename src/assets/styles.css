@@ -259,7 +259,7 @@ body {
   }
   /* contact page */
   .form-container {
-    width: 380px;
+    width: 50%;
   }
 }
 
@@ -287,5 +287,16 @@ body {
   }
   .project-title-container {
     width: 80vw;
+  }
+  /* contact page */
+  .main-contact {
+    background-image: url(../assets/images/contact-image.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }
+  .contact-container {
+    background: none;
+    margin-top: 160px;
   }
 }
