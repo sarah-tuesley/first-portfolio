@@ -176,21 +176,25 @@ body {
 
 /* contact page */
 .main-contact {
-  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+}
+.contact-me {
+  text-align: center;
 }
 .contact-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+  align-items: center;
   width: 80vw;
+  height: 60vh;
+  background-image: url(../assets/images/contact-image.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 600px;
 }
-.left-contact {
-  width: 560px;
-}
-.left-contact img {
-  width: 100%;
-}
-.right-contact {
-  width: 320px;
+.form-container {
+  width: 520px;
 }
 .form-container .form {
   width: 100%;
