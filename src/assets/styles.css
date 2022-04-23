@@ -204,6 +204,10 @@ body {
   resize: none;
   border-style: solid;
 }
+.form:focus {
+  outline: none;
+  border-color: pink;
+}
 .form-container .submit {
   background-color: pink;
   font-size: 20px;
@@ -213,6 +217,7 @@ body {
 .submit {
   border-radius: 8px;
   border-color: #d4e0ee;
+  color: #3f3d56;
 }
 
 @media (max-width: 992px) {
