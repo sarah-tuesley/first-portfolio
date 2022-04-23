@@ -41,8 +41,17 @@ body {
   margin: 0 auto;
   font-weight: bold;
 }
-.navbar .logo {
+.navbar .logo img {
   height: 7vh;
+}
+.logo .logo-2 {
+  display: none;
+}
+.logo:hover .logo-1 {
+  display: none;
+}
+.logo:hover .logo-2 {
+  display: block;
 }
 .navbar .right-nav {
   display: flex;
@@ -82,8 +91,12 @@ body {
   width: 280px;
 }
 .footer-icon li {
-  margin-right: 32px;
-  font-size: 32px;
+  margin-left: 1em;
+  font-size: 28px;
+  color: #f25477;
+}
+.footer-icon li:hover {
+  color: #3f3d56;
 }
 .footer-icon .envelope .fa-envelope-open {
   display: none;
@@ -96,6 +109,7 @@ body {
 }
 .envelope:hover .fa-envelope-open {
   display: block;
+  color: #3f3d56;
 }
 
 /* home page */
