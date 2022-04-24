@@ -62,13 +62,22 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
+  padding: 12px;
 }
-.right-nav a:link {
+.tab {
+  background-color: #fff8f9;
+  border-radius: 50px 50px 0 0;
+}
+.right-nav a:link,
+a:visited {
   color: #3f3d56;
 }
 .right-nav li:hover {
-  /* ask how to do the tab thing */
-  background-color: #ffeaef;
+  box-shadow: inset 0 -4px 0 0 #fff8f9;
+}
+.right-nav li:active {
+  background-color: #fff8f9;
+  border-radius: 50px 50px 0 0;
 }
 
 /* footer */
